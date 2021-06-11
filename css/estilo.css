@@ -1,0 +1,58 @@
+form{
+  width:25%;
+  border:1px solid white;
+  margin:auto;
+  padding:20px;
+  background: #C1F3F2;
+}
+
+body{
+  background:url(../imagenes/fondo.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+input{
+  margin-bottom:20px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+input:focus{
+  border:1px solid #1668C4;
+}
+
+input[type="submit"]{
+  margin-bottom:0;
+  background:#1668C4;
+  color:#fff;
+  border:none;
+
+}
+
+input[type="submit"]{
+  background:#4A88F4;
+  cursor:pointer;
+
+}
+
+img{
+  height:100px;
+  width:100px;
+  margin:auto;
+  display:block;
+}
+
+div{
+  background:#ccc
+  width:100%;
+}
+
+h1{
+  text-align: center;
+  color:red;
+}
+
+label{
+  color: red;
+}
